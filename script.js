@@ -66,4 +66,6 @@ function calculate() {
 function backSpace(text){
     let newText = text.slice(0, -1);
     display.textContent = newText;
+    operatorActive = false;
+    operatorCounter = 1;
 }
