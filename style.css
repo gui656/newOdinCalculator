@@ -29,6 +29,7 @@ body{
     grid-template-columns: repeat(4, 80px);
     grid-template-rows: repeat(5, 80px);
     justify-content: center;
+   
 }
 
 .display{
@@ -58,3 +59,10 @@ button:active {
     box-shadow: 2px 2px 2px rgb(0, 0, 0);
     border: 1px black solid;
 }
+
+
+@media only screen and (max-width: 768px) and (max-width: 1024px){
+    .container{
+        width: 60%;
+    }
+  }
