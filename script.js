@@ -41,7 +41,7 @@ function evaluateMathExpression(expression) {
         const func = new Function('return ' + expression);
 
         const result = func();
-        
+
         if (typeof result === 'number' && !isNaN(result)) {
             return result;
         } else {
