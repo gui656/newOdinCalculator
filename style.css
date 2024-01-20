@@ -67,12 +67,12 @@ button:active {
     }
     .btn-container{
         display: grid;
-        grid-template-columns: repeat(4, 40px);
-        grid-template-rows: repeat(5, 40px);
+        grid-template-columns: repeat(4, 30px);
+        grid-template-rows: repeat(5, 30px);
         justify-content: center;  
     }
 
     .display{
-        font-size: 20px;
+        font-size: 16px;
     }
   }
